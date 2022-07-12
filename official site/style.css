@@ -1,0 +1,150 @@
+/* navbar */
+
+.navbar{
+  position: fixed;
+  z-index: 99;
+  height: 47px;
+  width: 100%;
+  background: #040303;
+  padding-left:150px;
+  margin: 0;
+}
+.nav-item .nav-link{
+  font-size: 13px;
+  margin-left: 25px;
+}
+ .apple{
+  height: 18px;
+  width: 18px;
+}
+.shopping-bag{
+  height: 22px;
+  width: 22px;
+}
+
+/* EMI section */
+
+.emi{
+  position:absolute;
+  top: 47px;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background: #DF2E2E;
+  padding-top: 12px;
+  text-align: center;
+  color: #F7F7F7;
+  font-size: 0.9rem;
+}
+
+/* holiday section */
+
+.holiday {
+  margin-top: 130px;
+  text-align: center;
+}
+.holiday .holiday-text{
+  font-size: 4.5rem;
+  font-weight: bold;
+  padding-top: 20px;
+  color: #212121;
+}
+.holiday-button{
+  margin-top: 22px;
+}
+.button{
+  background: #1597E5;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #F6F6F6;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #3DB2FF;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.d-flex{
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.highlight-card{
+  width: 32%;
+  text-align: center;
+  background: auto;
+}
+
+.hover-img{
+  display: none;
+}
+
+.highlight-card:hover .hover-img{
+  display: block;
+}
+
+.highlight-card:hover .default-img{
+  display: none;
+}
+
+.icon-engrave{
+  text-align: center;
+  margin-top: 80px;
+  padding-top: 50px;
+}
+.icon-engrave a{
+  font-size: 1.2rem;
+  color: #113CFC;
+}
+
+.eng-head{
+  text-align: center;
+  margin-top: 35px;
+  margin-left: 320px;
+  width: 40%;
+  font-size: 1.8rem;
+  color: #212121;
+  font-weight: 700;
+}
+
+#footer{
+  text-align: left;
+  margin-top: 40px;
+}
+
+.para{
+  font-size: 0.8rem;
+}
+
+.footer-items a{
+  font-size:0.8rem;
+  line-height: 2;
+  text-align: left;
+  color: #2D2424;
+}
+
+.footer-items .head{
+  font-size: 0.9rem;
+  padding-bottom: 5px;
+  padding-top: 15px;
+}
+
+.shop-para{
+  font-size: 0.8rem;
+}
+
+.span-text{
+  margin-left: 15px;
+}
+.India{
+  position: relative;
+  left: 400px;
+}
