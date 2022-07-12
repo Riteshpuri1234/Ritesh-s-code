@@ -1,5 +1,4 @@
 $(document).ready(function(){
-  console.log("hello there");
 
 $("body").on("click", function(){
   $("div").animate({width:'500px'},2000),
